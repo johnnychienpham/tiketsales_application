@@ -110,6 +110,7 @@ const Calendar = ({
     // } else {
     //   nextClone.month = nextClone.month + 1;
     // }
+    console.log("it works")
 
     const prevDate =
       new Date(prevClone.year, prevClone.month - 1, prevDay).getDay() + 1;

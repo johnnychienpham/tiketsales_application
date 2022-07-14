@@ -25,6 +25,8 @@ const ChangeDateModal = (props: Props) => {
 
   },[ticket])
 
+  // console.log()
+
   return (
     <div
       className={`change__modal ${
