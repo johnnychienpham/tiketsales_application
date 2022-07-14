@@ -6,7 +6,7 @@ type Props = {};
 
 const Loading = (props: Props) => {
   const crudLoading = useSelector((state: RootState) => state.crud.isLoading);
-
+  console.log("it works")
   if (!crudLoading) {
     return <></>;
   }

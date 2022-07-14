@@ -132,7 +132,7 @@ const CheckTicket = (props: Props) => {
   const handleFilter = () => {
     isValidateCoupleDate !== 1 && dispatch(checkingFilter(filterInput));
   };
-
+  // console.log()
   const handleDownloadCSVFile = () => {
     const mapKey: FormatKey<TicketListData> = {
       bookingCode: "Booking code",
