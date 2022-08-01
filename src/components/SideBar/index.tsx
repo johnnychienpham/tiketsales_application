@@ -53,13 +53,7 @@ const SideBar = (props: Props) => {
           Gói dịch vụ
         </li>
       </ul>
-      {/* <div className="sidebar__copyright">
-        <p>
-          <span>Copyright</span>
-          <img src="./imgs/copyright.svg" alt="" />
-          <span>2020 Alta Software </span>
-        </p>
-      </div> */}
+      
     </div>
   );
 };
