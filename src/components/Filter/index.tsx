@@ -34,6 +34,7 @@ const Filter = (props: Props) => {
     dateFrom: fakeDate,
     dateTo: fakeDate,
   });
+  // console.log()
 
   const handleFilter = () => {
     dispatch(filter({
